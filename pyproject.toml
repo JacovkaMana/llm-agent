@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jass-ai"
+version = "0.1.0"
+description = ""
+authors = ["JacovkaMana <yasha.protasov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+pydantic = "^2.9.2"
+aiohttp = "^3.10.10"
+pytz = "^2024.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
